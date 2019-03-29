@@ -1,0 +1,86 @@
+*, html {
+	padding: 0;
+	margin:0 ;
+	font-family: "TrumpGothicEastBold", sans-serif;
+}
+
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 8fr 1fr;
+	grid-gap: 10px;	
+	background-color: #f6f6f6;
+}
+
+.text {
+	color: #4f4f4f;
+}
+
+.middle {
+	padding: 100px;
+}
+
+.bottom {
+	background-color: #e4e4e4;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+.privacy {
+	display: block;
+	margin-left: auto;
+	margin-top: auto;
+}
+
+.head-item {
+	padding-top: 20px;
+}
+
+.bottom-item {
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+/*backgrond-color: #e4e4e4;*/
+.head {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.hi3 {
+	grid-column: span 10;
+}
+
+a {
+	color: #717075;
+	font-family: "TrumpGothicEastBold", sans-serif;
+	text-decoration: none;
+	display: flex;
+	font-size: 14px;
+}
+
+.txth1 {
+	font-size: 79.863px;
+	font-weight: bold;
+	font: 79.863px/1 "TrumpGothicEastBold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.txth2 {
+	font-weight: bold;
+	font: 30px/1 "TrumpGothicEastBold", sans-serif;
+}
+
+.icon_lock {
+	margin-right: 5px;
+	height: 16px;
+	width: 16px;
+}
